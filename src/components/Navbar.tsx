@@ -53,8 +53,8 @@ const Navbar = () => {
             className="flex items-center gap-2 bg-gradient-to-r from-blue-500 to-purple-500 px-3 sm:px-4 py-2 rounded-full text-white text-sm sm:text-base"
             onClick={() => {
               const link = document.createElement("a");
-              link.href = "/Resume4.pdf";
-              link.download = "Resume4.pdf";
+              link.href = "/Resume5.pdf";
+              link.download = "Resume5.pdf";
               document.body.appendChild(link);
               link.click();
               document.body.removeChild(link);

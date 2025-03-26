@@ -7,35 +7,35 @@ const Certifications = () => {
       title: "Full Stack Web Development",
       issuer: "Udemy",
       date: "2024",
-      credential: "UC-ABC123",
+      
       
     },
     {
       title: "Data Structures & Algorithms",
       issuer: "Apna College",
       date: "2024",
-      credential: "CERT-XYZ789",
+      
       
     },
     {
       title: "MERN Stack Development",
       issuer: "Apna College",
       date: "2025",
-      credential: "CERT-DEF456",
+     
       
     },
     {
       title: "UI/UX Developer",
       issuer: "UDEMY",
       date: "2023",
-      credential: "CERT-DEF456",
+     
       
     },
     {
       title: "Google IT Support Professional Certificate",
       issuer: "Coursera",
       date: "2025",
-      credential: "CERT-DEF456",
+      
       
     }
   ];
@@ -56,7 +56,7 @@ const Certifications = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {certifications.map((cert, index) => (
             <motion.div
-              key={cert.credential}
+             
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
@@ -75,7 +75,7 @@ const Certifications = () => {
 
               <div className="space-y-2 mb-4">
                 <p className="text-secondary text-sm">Issued: {cert.date}</p>
-                <p className="text-secondary text-sm">Credential ID: {cert.credential}</p>
+              
               </div>
 
              

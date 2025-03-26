@@ -36,6 +36,25 @@ const Projects = () => {
       image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828"
     },
     {
+      title: "VidNexus App",
+      description: "A video-sharing platform with AI-powered interaction and enriched content discovery.",
+      techStack: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js","TailWind Css", "Supabase", " OMDB API"],
+      features: [
+        "✔ High-quality video streaming with real-time playback",
+        "✔ AI-powered chatbot for enhanced user interaction",
+       "✔ Intuitive TypeScript-powered UI for seamless navigation",
+       "✔ Cross-device compatibility for a consistent experience",
+      ],
+      achievements: [
+        "✅ Optimized Supabase queries, improving data retrieval by 40%",
+        "✅ Integrated AI chatbot, enhancing engagement and interaction",
+        "✅ Implemented OMDB API, enriching content with movie/show details engagement by 25%"
+      ],
+      github: "https://github.com/EshtaDevathaK/VedioStreaming_App",
+      demo: "https://vediostreaming-app.onrender.com",
+      image: "https://images.pexels.com/photos/4009409/pexels-photo-4009409.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
       title: "React-Weather-App",
       description: "A dynamic weather app fetching real-time data based on user input.",
       techStack: ["HTML", "CSS", "JavaScript", "React", "OpenWeather API" ],
