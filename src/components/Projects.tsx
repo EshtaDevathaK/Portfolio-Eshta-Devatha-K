@@ -19,7 +19,7 @@ const Projects = () => {
   const projects: Project[] = [
     {
       title: "Wanderlust",
-      description: "A social travel platform enabling users to share and explore travel destinations",
+      description: "A social travel platform enabling users to share and explore travel destinations, AI-powered chatbot for enhanced user interaction",
       techStack: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "MongoDB", "MapBox API"],
       features: [
         "User account creation & profile management",
@@ -32,7 +32,7 @@ const Projects = () => {
         "Enhanced UI/UX, improving engagement by 25%"
       ],
       github: "https://github.com/EshtaDevathaK/Wanderlust-project",
-      demo: "https://wanderlust-project-pz2t.onrender.com/listings",
+      demo: "https://wanderlust-project-f0am.onrender.com",
       image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828"
     },
     {
@@ -121,7 +121,7 @@ const Projects = () => {
         "✅ Fully responsive on all devices"
       ],
       github: "https://github.com/EshtaDevathaK/Spotify-Clone",
-      demo: "https://spotify-clone-ttq6.onrender.com/",
+      demo: "https://burger-landing-page.onrender.com",
       image: "https://images.unsplash.com/photo-1550547660-d9450f859349?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YnVyZ2VyfGVufDB8fDB8fHww"
     },
     
