@@ -24,7 +24,7 @@ const About = () => {
     {
       degree: "Bachelor of Computer Applications",
       institution: "Sri Sarada Niketan College for Arts and Science for Women",
-      period: "2020–2024",
+      period: "2021–2024",
       cgpa: "7.2",
     },
   ];

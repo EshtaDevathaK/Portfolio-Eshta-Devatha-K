@@ -55,7 +55,30 @@ const Projects = () => {
       image: "https://images.pexels.com/photos/4009409/pexels-photo-4009409.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
     },
     {
-      title: "React-Weather-App",
+      title: "React WeatherMood + (Advanced)",
+      description: "A culturally immersive weather app with Tamil music, traditional outfit suggestions, and seasonal imagery.",
+      techStack: ["React", "TypeScript", "CSS", "OpenWeatherMap API", "YouTube Music"],
+      features: [
+        "✔ Real-time weather data with fallback mechanisms",
+        "✔ Weather-based Tamil music recommendations via YouTube Music",
+        "✔ Traditional Tamil clothing suggestions based on conditions",
+        "✔ Seasonal photography with gradient overlays",
+        "✔ Multiple forecast views: daily, hourly, and multi-day",
+        "✔ Weather analytics and trend visualizations"
+      ],
+      achievements: [
+        "✅ Integrated OpenWeather API with error handling and geocoding",
+        "✅ Fixed broken music links by implementing dynamic YouTube Music search integration",
+        "✅ Created culturally accurate content for Tamil-speaking users",
+        "✅ Designed intelligent image selection system for seasonal relevance",
+        "✅ Built a mobile-responsive and accessible UI for all devices"
+      ],
+      github: "https://github.com/EshtaDevathaK/weatherMood", // update if needed
+      demo: "https://weathermood-tamil.onrender.com/", // update if deployed elsewhere
+      image: "https://images.unsplash.com/photo-1570095378004-ce65d6c2d5bb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      title: "React Weather (Basic)",
       description: "A dynamic weather app fetching real-time data based on user input.",
       techStack: ["HTML", "CSS", "JavaScript", "React", "OpenWeather API" ],
       features: [
@@ -72,6 +95,8 @@ const Projects = () => {
       demo: "https://react-weather-app-v456.onrender.com/",
       image: "https://images.unsplash.com/photo-1558486012-817176f84c6d?q=80&w=1804&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
+   
+    
     {
       title: "Simson Game",
       description: "An interactive browser-based memory game",

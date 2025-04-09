@@ -6,36 +6,29 @@ const Certifications = () => {
     {
       title: "Full Stack Web Development",
       issuer: "Udemy",
-      date: "2024",
+      date: "Four Months",
       
       
     },
     {
       title: "Data Structures & Algorithms",
       issuer: "Apna College",
-      date: "2024",
+      date: "Three Months",
       
       
     },
     {
       title: "MERN Stack Development",
       issuer: "Apna College",
-      date: "2025",
+      date: "Six Months",
      
       
     },
     {
       title: "UI/UX Developer",
       issuer: "UDEMY",
-      date: "2023",
+      date: "One Month",
      
-      
-    },
-    {
-      title: "Google IT Support Professional Certificate",
-      issuer: "Coursera",
-      date: "2025",
-      
       
     }
   ];
@@ -74,7 +67,7 @@ const Certifications = () => {
               </div>
 
               <div className="space-y-2 mb-4">
-                <p className="text-secondary text-sm">Issued: {cert.date}</p>
+                <p className="text-secondary text-sm">Duration: {cert.date}</p>
               
               </div>
 
