@@ -54,7 +54,7 @@ const Projects = () => {
         "✅ Implemented OMDB API, enriching content with movie/show details engagement by 25%"
       ],
       github: "https://github.com/EshtaDevathaK/VedioStreaming_App",
-      demo: "https://vediostreaming-app.onrender.com",
+      demo: "https://vedio-streaming-app.vercel.app/",
       image: "https://images.pexels.com/photos/4009409/pexels-photo-4009409.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
     },
     {
