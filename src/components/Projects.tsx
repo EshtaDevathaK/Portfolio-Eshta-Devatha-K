@@ -74,7 +74,7 @@ const Projects = () => {
         "✅ Built a mobile-responsive and accessible UI for all devices"
       ],
       github: "https://github.com/EshtaDevathaK/weatherMood", // update if needed
-      demo: "https://weathermood-tamil.onrender.com/", // update if deployed elsewhere
+      demo: "https://react-modern-webapplication.onrender.com/", // update if deployed elsewhere
       image: "https://images.unsplash.com/photo-1570095378004-ce65d6c2d5bb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
