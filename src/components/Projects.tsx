@@ -18,7 +18,7 @@ const Projects = () => {
 
   const projects: Project[] = [
     {
-      title: "Wanderlust",
+      title: "Travel Stay Platform",
       description: "A social travel platform enabling users to share and explore travel destinations, AI-powered chatbot for enhanced user interaction",
       techStack: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "MongoDB", "MapBox API"],
       features: [
@@ -34,31 +34,31 @@ const Projects = () => {
         "✅ Boosted content interaction by 30% with gallery and Comment and Review System",
         "✅ Improved engagement rate by 25% through UI/UX optimization By Pops Up specific Action as Listing"
       ],
-      github: "https://github.com/EshtaDevathaK/Wanderlust-project",
-      demo: "https://wanderlust-project-f0am.onrender.com",
+      github: "https://github.com/EshtaDevathaK/TravelStay_Platform",
+      demo: "https://travelstay-platform.onrender.com/listings",
       image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828"
     },
     {
       title: "VidNexus App",
       description: "A video-sharing platform with AI-powered interaction and enriched content discovery.",
-      techStack: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js","TailWind Css", "Supabase", " OMDB API"],
+      techStack: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "TailWind Css", "Supabase", " OMDB API"],
       features: [
         "✔ High-quality video streaming with real-time playback",
         "✔ AI-powered chatbot for enhanced user interaction",
-       "✔ Intuitive TypeScript-powered UI for seamless navigation",
-       "✔ Cross-device compatibility for a consistent experience",
+        "✔ Intuitive TypeScript-powered UI for seamless navigation",
+        "✔ Cross-device compatibility for a consistent experience",
       ],
       achievements: [
         "✅ Optimized Supabase queries, improving data retrieval by 40%",
         "✅ Integrated AI chatbot, enhancing engagement and interaction",
         "✅ Implemented OMDB API, enriching content with movie/show details engagement by 25%"
       ],
-      github: "https://github.com/EshtaDevathaK/VedioStreaming_App",
+      github: "https://github.com/EshtaDevathaK/VidNexus-MovieFetching-Platform",
       demo: "https://vedio-streaming-app.vercel.app/",
       image: "https://images.pexels.com/photos/4009409/pexels-photo-4009409.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
     },
     {
-      title: "React WeatherMood + (Advanced)",
+      title: "React WeatherNow + (Advanced)",
       description: "A culturally immersive weather app with Tamil music, traditional outfit suggestions, and seasonal imagery.",
       techStack: ["React", "TypeScript", "CSS", "OpenWeatherMap API", "YouTube Music"],
       features: [
@@ -78,15 +78,15 @@ const Projects = () => {
       github: "https://github.com/EshtaDevathaK/React_Modern_WebApplication",
       demo: "https://react-modern-webapplication.onrender.com/",
       image: "https://images.unsplash.com/photo-1570095378004-ce65d6c2d5bb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-    },    
+    },
     {
       title: "React Weather (Basic)",
       description: "A dynamic weather app fetching real-time data based on user input.",
-      techStack: ["HTML", "CSS", "JavaScript", "React", "OpenWeather API" ],
+      techStack: ["HTML", "CSS", "JavaScript", "React", "OpenWeather API"],
       features: [
         "✔ Live weather search",
-       " ✔ Responsive weather card (temp, humidity, conditions)",
-       " ✔ OpenWeather API integration",
+        " ✔ Responsive weather card (temp, humidity, conditions)",
+        " ✔ OpenWeather API integration",
         "✔ Cross-device compatibility"
       ],
       achievements: [
@@ -97,8 +97,8 @@ const Projects = () => {
       demo: "https://react-weather-app-v456.onrender.com/",
       image: "https://images.unsplash.com/photo-1558486012-817176f84c6d?q=80&w=1804&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
-   
-    
+
+
     {
       title: "Simson Game",
       description: "An interactive browser-based memory game",
@@ -115,7 +115,7 @@ const Projects = () => {
       demo: "https://simson-game-project.onrender.com/",
       image: "https://images.unsplash.com/photo-1553481187-be93c21490a9"
     },
-   
+
     {
       title: "Spotify Clone",
       description: "A responsive music streaming interface inspired by Spotify",
@@ -132,7 +132,7 @@ const Projects = () => {
       demo: "https://spotify-clone-ttq6.onrender.com/",
       image: "https://images.unsplash.com/photo-1611339555312-e607c8352fd7"
     },
-    
+
     {
       title: "Burger Landing Page",
       description: "Interactive burger restaurant landing page with HTML & CSS, featuring a stunning UI.",
@@ -141,7 +141,7 @@ const Projects = () => {
         "✔ Responsive and attractive layout",
         " ✔ smooth animations",
         " ✔ Well-structured for seamless browsing",
-        
+
       ],
       achievements: [
         "✅ Eye-catching hover effects and transitions",
@@ -151,7 +151,7 @@ const Projects = () => {
       demo: "https://burger-landing-page.onrender.com",
       image: "https://images.unsplash.com/photo-1550547660-d9450f859349?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YnVyZ2VyfGVufDB8fDB8fHww"
     },
-    
+
   ];
 
   return (
