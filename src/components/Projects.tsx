@@ -43,8 +43,8 @@ const Projects = () => {
       description: "A video-sharing platform with AI-powered interaction and enriched content discovery.",
       techStack: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "TailWind Css", "Supabase", " OMDB API"],
       features: [
-        "✔ High-quality video streaming with real-time playback",
-        "✔ AI-powered chatbot for enhanced user interaction",
+        "✔ Built REST API with Express and optimized backend",
+        "✔ Implemented real-time chatbot for enhanced user interaction",
         "✔ Intuitive TypeScript-powered UI for seamless navigation",
         "✔ Cross-device compatibility for a consistent experience",
       ],
@@ -64,8 +64,7 @@ const Projects = () => {
       features: [
         "✔ Real-time weather data with fallback mechanisms",
         "✔ Weather-based Tamil music recommendations via YouTube Music",
-        "✔ Traditional Tamil clothing suggestions based on conditions",
-        "✔ Seasonal photography with gradient overlays",
+        "✔ Integrated weather API for real-time data",
         "✔ Multiple forecast views: daily, hourly, and multi-day",
         "✔ Weather analytics and trend visualizations"
       ],
