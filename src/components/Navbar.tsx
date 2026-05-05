@@ -107,8 +107,8 @@ const Navbar = () => {
               className="flex items-center gap-2 bg-gradient-to-r from-blue-500 to-purple-500 px-4 py-2 rounded-full text-white w-fit mt-2"
               onClick={() => {
                 const link = document.createElement("a");
-                link.href = "/Resume-24.pdf";
-                link.download = "Resume-24.pdf";
+                link.href = "/EshtadevathaK.pdf";
+                link.download = "EshtadevathaK.pdf";
                 document.body.appendChild(link);
                 link.click();
                 document.body.removeChild(link);
